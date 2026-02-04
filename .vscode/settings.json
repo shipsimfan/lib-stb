@@ -1,0 +1,6 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/target/cmake",
+    ],
+    "cmake.buildDirectory": "${workspaceFolder}/target/cmake",
+}

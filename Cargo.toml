@@ -1,0 +1,9 @@
+[package]
+name = "stb"
+description = "wrappers for stb single header public domain libraries"
+version = "0.1.0"
+authors = ["Lance Hart <me@lancehart.ca>"]
+edition = "2024"
+repository = "https://github.com/shipsimfan/lib-stb"
+license = "GPL-3.0-or-later"
+publish = false
