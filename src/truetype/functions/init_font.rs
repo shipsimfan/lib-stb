@@ -1,6 +1,7 @@
 use crate::truetype::stbtt_fontinfo;
 use std::ffi::{c_int, c_uchar};
 
+#[link(name = "stb", kind = "static")]
 unsafe extern "C" {
     /// Given an offset into the file that defines a font, this function builds
     /// the necessary cached info for the rest of the system. You must allocate
